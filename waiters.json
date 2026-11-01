@@ -1,0 +1,24 @@
+{
+  "Waiters": [
+    {
+      "PutRequest": {
+        "Item": {
+          "userId": { "S": "waiter-1" },
+          "locationId": { "S": "7d598da3-0887-4a04-a3a1-fe26d8a4a4f2" },
+          "createdAt": { "S": "2026-11-01T17:18:00Z" },
+          "reservations": { "L": [] }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "userId": { "S": "waiter-2" },
+          "locationId": { "S": "2de08053-9bec-4662-bf56-2ccb70aeeb78" },
+          "createdAt": { "S": "2026-11-01T17:18:00Z" },
+          "reservations": { "L": [] }
+        }
+      }
+    }
+  ]
+}
